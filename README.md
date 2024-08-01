@@ -22,6 +22,7 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## To Do
+'''
 User Login and Registration
     - Authentication via NestJS
 Stock Symbol Subscription
@@ -32,3 +33,4 @@ Admin features
     - Marking active and inactive users
 Dockerization and deployment
 Settings
+'''
