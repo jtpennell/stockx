@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 export function Login({ onSuccess, currentDialog }) {
   console.log(currentDialog)
   const [isRegistered, setIsRegistered] = useState(currentDialog === "signIn" ? true : false);
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: any) => {
     e.preventDefault(); // Prevent default form submission
     // Simulate successful login or signup
     setIsRegistered(true);
